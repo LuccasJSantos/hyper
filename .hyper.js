@@ -8,7 +8,7 @@ module.exports = {
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 18,
+        fontSize: 20,
         // font family with optional fallbacks
         fontFamily: 'CodeNewRoman NF, Hurmit NF, Hasklig, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
@@ -31,7 +31,7 @@ module.exports = {
         foregroundColor: '#fff',
         // terminal background color
         // opacity is only supported on macOS
-        backgroundColor: 'rgba(0, 10, 20, 0.4)',
+        backgroundColor: 'rgba(0, 10, 20, 0.07)',
         // terminal selection color
         selectionColor: 'rgba(248,28,229,0.3)',
         // border color (window, tabs)
@@ -136,7 +136,8 @@ module.exports = {
         // for advanced config flags please refer to https://hyper.is/#cfg
         // hyper-acrylic
         acrylic: {
-            blur: "classic",
+            blur: "acrylic",
+            alpha: 75
         },
         // hyper-tabs-enhanced
         hyperTabs: {
